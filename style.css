@@ -42,3 +42,51 @@ ul li a {
 }
 
 /* End of the Navbar */
+
+/* Start of the Hero Section */
+
+.section-1 {
+    background-color: #1f2937;
+    height: 600px;
+}
+
+.section-1 .container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-section , img {
+    width: 400px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 35px;
+    font-size: medium;
+    border-radius: 12px;
+
+}
