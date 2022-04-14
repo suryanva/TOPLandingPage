@@ -198,3 +198,12 @@ h3 {
 }
 
 /* end of call to action */
+
+footer {
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
