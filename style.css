@@ -90,3 +90,44 @@ h3 {
     border-radius: 12px;
 
 }
+
+/* Section 2 Begins */
+.section-2 {
+    height: 400px;
+}
+
+
+ .top-child h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 5px solid lightblue;
+}
+
+.bottom-child {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bottom-child p {
+    font-size: smaller;
+    font-weight: lighter;
+}
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
