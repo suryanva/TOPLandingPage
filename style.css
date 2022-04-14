@@ -131,3 +131,36 @@ h3 {
     align-items: center;
     gap: 50px;
 }
+
+/* Section 2 ends */
+
+.quote {
+    height: 500px;
+    background-color: #e5e7eb;
+}
+
+.truecontainers .container .main-quote  {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.main-quote {
+    width: 800px;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1f2937;
+    float: right;
+}
+.truecontainers {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* End of Quote section */
